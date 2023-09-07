@@ -1,0 +1,27 @@
+Type: Shiny
+Title: Durham Police Dashboard
+Authors@R: 'Jamie Reason' [aut, cre]
+Description: A Shiny web application for visualizing crime data from Durham Police using the UK Police API and various R packages.
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.1.1)
+Imports:
+    shiny,
+    leaflet,
+    ukpolice,
+    lubridate,
+    forcats,
+    stringr,
+    dplyr,
+    purrr,
+    readr,
+    tidyr,
+    tibble,
+    ggplot2,
+    tidyverse,
+    sf
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

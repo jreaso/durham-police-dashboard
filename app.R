@@ -6,7 +6,6 @@ library("ggplot2")
 
 nbd <- ukc_neighbourhoods("durham")
 nbd2 <- nbd$id
-print(nbd2)
 names(nbd2) <- nbd$name
 
 # Application UI
